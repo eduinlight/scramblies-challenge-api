@@ -1,7 +1,7 @@
 (ns scramblies-challenge.core-test
   (:require [cheshire.core :as cheshire]
             [clojure.test :refer :all]
-            [scramblies-challenge.handler :refer :all]
+            [scramblies-challenge.core :refer :all]
             [ring.mock.request :as mock]))
 
 (defn parse-body [body]
