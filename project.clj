@@ -15,7 +15,7 @@
                               [jonase/eastwood "0.4.2"]
                               [lein-try "0.4.3"]
                               [lein-cloverage "1.2.2"]]
-                    :githooks {:auto-install true
+                    :githooks {:auto-install false
                                :pre-commit ["lein cljfmt fix ./src"]
                                :pre-push ["lein test" "lein eastwood"]}
                     :cljfmt {:identation? true
