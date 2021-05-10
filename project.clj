@@ -16,7 +16,7 @@
                               [lein-try "0.4.3"]
                               [lein-cloverage "1.2.2"]]
                     :githooks {:auto-install true
-                               :pre-commit ["lein cljfmt fix"]
+                               :pre-commit ["lein cljfmt fix ./src"]
                                :pre-push ["lein test" "lein eastwood"]}
                     :cljfmt {:identation? true
                              :remove-surrounding-whitespace? true
