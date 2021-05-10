@@ -1,7 +1,7 @@
 (ns scramblies-challenge.modules.strings.service
   (:require [scramblies-challenge.modules.strings.utils :as utils]))
 
-(defn scramble
+(defn scramble?
   "Returns true if a portion of str1 characters 
    can be rearranged to match str2, otherwise returns false"
   [str1 str2]
