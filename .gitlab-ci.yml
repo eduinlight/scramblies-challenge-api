@@ -1,0 +1,16 @@
+.clojure: &clojure
+  image: clojure
+
+stages:
+  - test
+
+test:
+  stage: test
+  <<: *clojure
+  :before_script:
+    - lein deps
+  script:
+    - lein cljfmt check
+    - lein test
+    - lein eastwood
+
