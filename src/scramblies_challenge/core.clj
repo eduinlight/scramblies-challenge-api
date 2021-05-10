@@ -11,6 +11,7 @@
      :spec "/swagger.json"
      :data {:info {:title "Scramblies-challenge"
                    :description "scramblies challenge api"}
-            :tags [{:name "api", :description "scramblies challenge api endpoints"}]}}}
+            :tags [{:name "api",
+                    :description "scramblies challenge api endpoints"}]}}}
 
    (api-routes)))

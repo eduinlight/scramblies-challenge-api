@@ -1,7 +1,7 @@
 (ns scramblies-challenge.modules.strings.utils)
 
 "vector that represents the 26 english lowercase characters initialized to 0"
-(def elc-vec  (vec (repeat 26 0)))
+(def elc-vec (vec (repeat 26 0)))
 
 (defn get-elc-index
   "Returns the index of character c for a = 0 ... z = 25"
